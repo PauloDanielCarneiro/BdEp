@@ -1,0 +1,5 @@
+npm install
+expo install
+expo prebuild 
+fix AndroidManifest
+npx react-native run-android
