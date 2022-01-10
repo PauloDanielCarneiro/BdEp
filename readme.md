@@ -2,11 +2,15 @@
 
 Esse é um projeto no qual utilizamos uma aplicação mobile, uma api no back end e uma base de dados Portgres para entendeer se um dado usuario interagiu com um usuario potencialmente doente.
 
-##Grupo
+## Grupo
 Paulo Daniel Carneiro - 10424993
 Vinicius Henrique Saito de Almeida - 10816815
 
-# Explicações de teste:
+## Links:
+- youtube: apresentação com slides: https://youtu.be/nDVQDoIAZpw
+- youtube: apresentação das coisas em tempo real com o codigo e emulador: https://youtu.be/qA4ADDGJcMU
+- Repositório GITHUB: https://github.com/PauloDanielCarneiro/BdEp
+# Explicações para testar:
 ## Mobile
 ### Rodar o App
 1. Intale O JDK 11
@@ -20,10 +24,10 @@ Na aba SDK Tools verifique se Android Emulator está instalado.
 (as configurações utilizadas na apresentação foram, 
 definição de dispositivo Pixel 2 (5.0 1080x1920 xxhdpi), imagem de sistema R (Android 11.0 x86))
 8. Clique em Run para começar a emular.
-9. Com o terminal aberto na root do projeto, execute o comando -
-npm install
-npx react-native run-android
-O primeiro comando instala as dependências e o segundo instala o aplicativo no emulador.
+9. Com o terminal aberto na root do projeto, execute o comando
+   1.  npm install
+   2.  npx react-native run-android
+   O primeiro comando instala as dependências e o segundo instala o aplicativo no emulador.
 10. O aplicativo será aberto no emulador.
 
 ### Selecionar localização
@@ -32,7 +36,7 @@ Após clique em Location e escolha a localização no mapa
 clique no canto direito inferior Set Location
 (é possivel salvar uma localização clicando em Save Point, mostrado quando voce clica em alguma parte do mapa)
 
-## Database
+## Acesso database
 Para acessar a base de dados, pode-se utilizar as seguintes credenciais:
 host: database-1.cd4wnujqkcc1.us-east-2.rds.amazonaws.com
 Port: 5432
@@ -59,3 +63,7 @@ Por ser uma aplicação que o smartphone/emulador tem que se conectar por web, n
 
 1. Já possuimos a aplicação deployada na AWS, no endereço http://18.117.176.243:2000/.
 2. Da mesma forma que o local, pode-se adicionar `/swagger` no final da url para acessar a interface swagger, com acesso aos endpoints.
+
+### Aplicativo no emulador
+
+O aplicativo no emulador já está configurado para usar a versão deployada na AWS.
