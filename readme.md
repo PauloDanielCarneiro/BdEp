@@ -7,7 +7,7 @@ Paulo Daniel Carneiro - 10424993
 Vinicius Henrique Saito de Almeida - 10816815
 
 ## Links:
-- youtube: apresentação com slides: https://youtu.be/nDVQDoIAZpw
+- youtube: apresentação com slides: https://www.youtube.com/watch?v=b4TVvvQ0ZWw
 - youtube: apresentação das coisas em tempo real com o codigo e emulador: https://youtu.be/qA4ADDGJcMU
 - Repositório GITHUB: https://github.com/PauloDanielCarneiro/BdEp
 # Explicações para testar:
